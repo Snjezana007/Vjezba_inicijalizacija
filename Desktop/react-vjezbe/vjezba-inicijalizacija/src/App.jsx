@@ -1,10 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
+
+import './App.scss';
 
 function App() {
   return (
     <div className="App">
-      <h1>React App</h1>
+      <h1>Polaznik: Snježana Mikša</h1>
     </div>
   );
 }
