@@ -1,0 +1,8 @@
+[user]
+	name = Snježana007
+	email = 120574058+Snjezana007@users.noreply.github.com
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
